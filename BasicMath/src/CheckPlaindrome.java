@@ -1,4 +1,4 @@
-public class CheckPlanindrome {
+public class CheckPlaindrome {
 
         public boolean isPalindrome(int x) {
             int temp = x;
