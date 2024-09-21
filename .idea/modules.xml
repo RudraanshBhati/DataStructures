@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicMath/BasicMath.iml" filepath="$PROJECT_DIR$/BasicMath/BasicMath.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DataStructures.iml" filepath="$PROJECT_DIR$/.idea/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/SingleLinkedList/SingleLinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/SingleLinkedList/SingleLinkedList.iml" />
     </modules>
   </component>
 </project>
