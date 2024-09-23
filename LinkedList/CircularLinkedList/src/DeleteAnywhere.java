@@ -15,7 +15,7 @@ public class DeleteAnywhere {
 
 
 
-        head = deleteAnywhere(2,head,tail);
+        head = deleteAnywhere(1,head,tail);
 
         CircularNode temp = head;
 
@@ -32,16 +32,19 @@ public class DeleteAnywhere {
     {
 
         CircularNode temp = head;
+        CircularNode temp2 = head.next;
         int i = 0 ;
         while(i < index - 1 && temp.next != head)
         {
             temp = temp.next;
+            temp2 = temp2.next;
             i++;
         }
 
         if(index == 0)
         {
-            deleteAtBeg(head , tail);
+           head =  deleteAtBeg(head , tail);
+           return head;
         }
 
         else if(temp == tail)
@@ -49,9 +52,11 @@ public class DeleteAnywhere {
             tail = deleteAtEnd(head , tail);
         }
 
-        else
+        else if(index != 0 && temp != tail)
         {
-            temp.next.next = null;
+            temp.next = temp.next.next;
+            temp2.next = null;
+
         }
 
         return head;
