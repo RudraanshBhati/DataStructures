@@ -13,7 +13,7 @@ public class InsertAnywhere {
 
 
 
-        head = insertAnywhere(9, 2,head,tail);
+        head = insertAnywhere(9, 3,head,tail);
 
         CircularNode temp = head;
 
@@ -44,8 +44,8 @@ public class InsertAnywhere {
 
         else if(temp == tail)
         {
-            insertAtEnd(data , head ,tail);
-            return tail;
+            tail = insertAtEnd(data , head ,tail);
+            return head;
         }
 
         else
