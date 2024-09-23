@@ -1,4 +1,4 @@
-public class DeleteAtAnywhere {
+public class DeleteAnywhere {
     public static void main(String[] args) {
         CircularNode a = new CircularNode(1);
         CircularNode b = new CircularNode(2);
