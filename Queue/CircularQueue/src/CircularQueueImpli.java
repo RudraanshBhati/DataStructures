@@ -31,7 +31,8 @@ public class CircularQueueImpli {
 
         int data = queue[front];
         if (front == rear) {
-            front = rear = -1;
+            front = -1;
+            rear = -1;
         } else {
             front = (front + 1) % capacity;
         }
@@ -66,7 +67,7 @@ public class CircularQueueImpli {
             for (int i = front; i != rear; i = (i + 1) % capacity) {
                 System.out.print(queue[i] + " ");
             }
-            System.out.print(queue[rear] + "\n");
+            System.out.print(queue[rear]);
         }
     }
 }
