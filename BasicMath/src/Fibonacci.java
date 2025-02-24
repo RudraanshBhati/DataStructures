@@ -1,22 +1,22 @@
 import java.util.Scanner;
-public class Fibonnaci {
+public class Fibonacci{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        System.out.println(fibo(num));
+        System.out.println(fib(num));
     }
 
-    public static int fibo(int num)
+    public static int fib(int num)
     {
         if( num <= 1)
         {
-            return num;
+            return 1;
 
         }
         else
         {
 
-            return fibo(num - 1) + fibo(num -2);
+            return fib(num - 1) + fib(num -2);
 
         }
     }
